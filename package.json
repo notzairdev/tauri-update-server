@@ -1,0 +1,43 @@
+{
+    "name": "tauri-update-server",
+    "version": "2.0.0",
+    "description": "Worker based Tauri update server",
+    "main": "dist/worker.js",
+    "scripts": {
+        "dev": "wrangler dev",
+        "deploy": "wrangler deploy",
+        "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'",
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "test": "vitest"
+    },
+    "author": "author",
+    "license": "MIT",
+    "eslintConfig": {
+        "root": true,
+        "extends": [
+            "typescript",
+            "prettier"
+        ]
+    },
+    "devDependencies": {
+        "@cloudflare/vitest-pool-workers": "^0.8.55",
+        "@cloudflare/workers-types": "^4.20250719.0",
+        "@stylistic/eslint-plugin-ts": "^4.4.1",
+        "@types/semver": "^7.7.0",
+        "@typescript-eslint/eslint-plugin": "^8.37.0",
+        "@typescript-eslint/parser": "^8.32.1",
+        "eslint": "^9.31.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-config-typescript": "^3.0.0",
+        "eslint-plugin-prettier": "^5.5.3",
+        "prettier": "^3.6.2",
+        "ts-loader": "^9.5.2",
+        "typescript": "^5.8.3",
+        "vitest": "3.2.4",
+        "wrangler": "^4.14.0"
+    },
+    "dependencies": {
+        "semver": "^7.7.2"
+    }
+}
