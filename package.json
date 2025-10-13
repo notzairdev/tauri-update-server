@@ -24,7 +24,7 @@
         "@cloudflare/vitest-pool-workers": "^0.8.55",
         "@cloudflare/workers-types": "^4.20250719.0",
         "@stylistic/eslint-plugin-ts": "^4.4.1",
-        "@types/semver": "^7.7.0",
+        "@types/semver": "^7.7.1",
         "@typescript-eslint/eslint-plugin": "^8.37.0",
         "@typescript-eslint/parser": "^8.32.1",
         "eslint": "^9.31.0",
@@ -38,6 +38,6 @@
         "wrangler": "^4.14.0"
     },
     "dependencies": {
-        "semver": "^7.7.2"
+        "semver": "^7.7.3"
     }
 }
